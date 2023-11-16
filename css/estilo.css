@@ -1,0 +1,22 @@
+*{padding:0px; margin:0px;}
+
+body{height:750px;width:750px;background-color:#8fbc8f; margin:auto;}
+
+header{height:250px;width:750px;background-color:#ab4;}
+
+nav{height:50px; width:750px;background-color:#696969;}
+
+main{height:400px; width:750px; background-color:#d3d3d3;}
+
+footer{height:50px; width:750px; background-color:#2f4f4f;}
+
+#banner{height:250px;width:500px;background-color:#778899; float:right;}
+
+#logo{height:125px;width:250px;background-color:#c0c0c0; }
+
+#buscador{height:125px;width:250px;background-color:#a9a9a9; }
+
+#lado_izquierdo{height:400px;width:150px;background-color:#808080;float:left; }
+
+#lado_derecho{height:400px;width:150px;background-color:#808080;float:right; }
+

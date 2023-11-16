@@ -1,0 +1,65 @@
+*{padding:0px; margin:0px;}
+
+body {height:633px;width:750px; background-image:url(../images/fondof.jpg); margin:0; background-position:center; background-attachment:fixed; background-repeat:no-repeat;background-size:cover;
+border:solid 4px white; color:white;
+}
+
+html{ justify-content:center; display:flex; 
+}
+
+header{height:130px;width:750px;background-color:rgba(148, 194, 17);
+
+}
+nav{height:125px;width:750px;
+}
+main{height:375px; width:750px; background-color:#2C3E50; border-top:3px solid white;
+}
+
+footer {height:150px; width:750px; background-color:#2f4f4f; margin:auto;
+
+text-align:center;   
+}
+
+h1{text-align:center;
+}
+	
+.autor{float:right; margin: 20px 20px;display:inline-block;	
+}
+.menu{display:inline-block;  text-align:center;background-color:#122F55	;height:32px;width:652px; 
+padding: 40px;			border:9px ridge  #0935AB;top:0px;font-weight: bold; transition: 0.5s;}		
+.menu ul{margin:0px;}
+.menu ul li a{text-decoration:none;color:black;padding:30px;display: block;}
+.menu ul li{display:inline-block;text-align:center;}
+.menu ul li a:hover{height:10px; background-color:rgba(148, 194, 17);}
+
+.logo{  height:50px; width:120px;
+float:left;  margin-top:10px;
+}
+	
+.costadoder {height:375px; width: 200px; 
+background-color:rgba(50, 70, 125, 0.8); text-align:center;
+float:right;border-left:3px solid white;
+ }
+ 
+.medio {height:375px; width: 750px; 
+text-align:center; float:center;
+}
+	
+.costadoizq {height:375px; width: 200px;
+background-color:rgba(50, 70, 125, 0.8); border-right:3px solid white;
+float:left; text-align:center; 
+}
+
+.ubi { float:middle; text-align:center; 
+}
+
+.menu2{display:block;  float:middle; text-align:center;background-color:#ab4;width:750px;height:100px;
+}
+.menu2 ul{margin:0px; display:inline-block;}
+.menu2 ul li a{text-decoration:none;color:black;padding:20px;display: block;}
+.menu2 ul li{display:inline-block;text-align:center;}
+.menu2 ul li a:hover{background: #ef8354}
+.menu2 aside{background-color:#21D6FA;display:block;float:right;}
+
+.colorl {color:#1A5276;
+}

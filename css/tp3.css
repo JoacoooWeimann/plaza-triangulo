@@ -1,0 +1,37 @@
+article{background-color:rgba(192,192,192,0.4);
+	width:820px;
+	border:9px double  lightslategrey;
+	padding: 40px;
+	margin:20px;
+	font-family:Arial,Sans-serif,impact;
+	color:white	; 
+	display:block;
+	float:middle; 
+	text-align:center;
+}
+
+body{background-color:rgba(105,105,105,0.7);
+
+}
+
+header{width:820px;height:200px;font-size:8px;background-color:rgba(112,128,144);display:block;float:middle;text-align:center;
+	
+
+}
+
+.clase2 {background-color:rgba(128,128,128,1.0);
+	width:720px;
+	border:8px dotted black;
+	padding: 70px;
+	margin:30px;
+	font-family:Arial,Sans-serif,impact;
+	color:white	;
+	display:block;
+	float:middle;
+	text-align:justify;
+}
+	
+section:first-letter{font-size:150px;color:rgba(70,130,180);background-color:rgba(176,196,222);
+	
+}
+

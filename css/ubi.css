@@ -1,0 +1,39 @@
+*{padding:0px; margin:0px;}
+
+body {height:780px;width:1300px;background-image:url(../images/fondou.jpg); margin:0; background-position:center; background-attachment:fixed; background-repeat:no-repeat;background-size:cover;
+                           
+}
+
+html{ justify-content:center; display:flex;  
+}
+
+header{height:80px;width:1300px;
+}
+main{height:580px; width:1300px;color:white;
+}
+
+footer {height:120px; width:1300px; background-color:#2f4f4f; margin:auto;border-top:3px solid black;	
+
+}
+
+h1{text-align:center;
+}
+ p {text-align:justify; margin: 4px;}
+
+.logo{float:left;
+}
+
+.ubi { float:middle; text-align:center; 
+}
+.menu{display:flex;  align-items:center; justify-content: space-between;background-color:#122F55	;height:80px;width:1150px; 
+	padding-left:5%; padding-right:5%;		border:9px ridge  #0935AB; position:fixed;top:0px; font-weight: bold; transition: 0.5s;}
+.menu ul{margin:0px;}
+.menu ul li a{text-decoration:none;color:black;padding:30px;margin: 20px; display: block;}
+.menu ul li{display:inline-block; padding 0px 20px;}
+.menu ul li a:hover{ height:10px; background-color:rgba(148, 194, 17);}
+
+.centrar {display:block;  float:middle; text-align:center;
+}
+
+h2{text-align:left; size: 12px;
+}

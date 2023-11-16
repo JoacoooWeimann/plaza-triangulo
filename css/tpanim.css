@@ -1,0 +1,44 @@
+*{padding:0px; margin:0px;}
+body {height:800;width:811px;background-color:#8fbc8f;margin: auto;}	
+	p {color:black;}
+
+
+
+
+	
+header{height:250px;width:811px;background-color:#ab4;display: flex; flex-wrap: wrap; flex-direction:row;aling-items:center;justify.content:center;}
+footer{height:125px; width:840px; background-color:#2f4f4f;}
+#div1{width:150px; height:200px; padding:0 60px 20px; animation-name:example; animation-duration:10s; position:relative; animation-iteration-count: infinite;}
+@keyframes example {
+	0%  {left:0px;top:150px;}
+	25% {left:0px;top:0px;}
+	50% {left:200px;top:0px;}
+	65% {left:200px;top:0px;}
+	85% {left:0px;top:0px;}
+	100% {left:0px;top:150px;} 
+	}
+	
+
+#div2{width:150px; height:200px; padding:0 60px 20px; animation-name:example2; animation-duration:10s;position:relative; animation-iteration-count: infinite;	}
+@keyframes example2 {
+	0%  {left:0px;top:0px;}
+	25% {left:0px;top:0px;}
+	50% {left:0px;top:150px;}
+	65% {left:0px;top:150px;}
+	85% {left:0px;top:150px;}
+	100% {left:0px;top:0px;} 
+	}
+	
+	
+#div3{width:150px; height:200px;padding:0 60px 20px; animation-name:example3; animation-duration:10s; position:relative; animation-iteration-count: infinite;}
+@keyframes example3 {
+	0%  {left:0px;top:150px;}
+	25% {left:0px;top:0px;}
+	50% {left:-200px;top:0px;}
+	65% {left:-200px;top:0px;}
+    85% {left:0px;top:0px;}
+	100% {left:0px;top:150px;} 
+	}
+	.centrar { display:block;  float:middle; text-align:center; }
+	
+	

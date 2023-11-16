@@ -1,0 +1,23 @@
+header{background-color:orange; width:703px; 
+}
+
+nav{border:2px black double;width:700px;height:
+}
+
+div{margin:4px;width:700px;
+}
+
+section{
+}
+
+footer{
+}	
+
+li{margin:4px; list-style:none;
+}
+
+.hz {display:flex; flex-direction:row; border:1px blue double; justify-content:space-between;
+}
+.der{display:flex; flex-direction:row-reverse;justify-content:space-between;
+}
+

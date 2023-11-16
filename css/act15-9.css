@@ -1,0 +1,26 @@
+.clase1 {background-color:rgba(192,192,192,0.4);
+	width:1200px; height:300px;
+
+	padding: 40px;	margin:0px;	border:9px double  lightslategrey;
+
+	font-family:Arial;
+	color:white; 
+	text-align:center; 
+    
+}
+p{text-align:justify;
+	font-size:200%;
+	text-shadow:letter-spacing;}
+h1 {font-size:40px; text-align:center;}
+h2 {font-size:30px; text-align:center;}
+
+body {width: 1220px; height:1000px;
+	background-color:rgba(112,128,144);
+}          
+p:first-letter{font-size:80px;
+color:rgba(70,130,180);
+border:8px double rgba(176,196,222);
+outline-style:solid;
+outline-color:black;
+outline-width:8px;
+}

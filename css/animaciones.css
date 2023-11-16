@@ -1,0 +1,44 @@
+*{padding:0px; margin:0px;}
+body {background-color:#8fbc8f;}	
+	p {color:black;}
+#div1{width:150px; height:150px; background-color:#21D6FA;opacity:0.; animation-name:example; animation-duration:5s; animation-timing-function:ease;}
+@keyframes example {
+	from{background-color:#21D6FA;} to {background-color:#b0c4de;}
+	}
+
+#div2{width:175px; height:175px; background-color:#e6e6ef; animation-name:example2; animation-duration:5s;animation-timing-function:linear;	}
+@keyframes example2 {
+	0%  {background-color:#e6e6ef;}
+	25% {background-color:#d8bfd8;}
+	50% {background-color:#dda0dd;}
+	75% {background-color:#ee82ee;}
+	100% {background-color:#ff00ff;} 
+	}
+	
+#div3{width:200px; height:200px; background-color:#adff2f; animation-name:example3; animation-duration:5s; position:relative; animation-timing-function:ease-in;	}
+@keyframes example3 {
+	0%  {background-color:#adff2f;left:0px;top:0px;}
+	25% {background-color:#00ff00;left:1000px;top:0px;}
+	50% {background-color:#32cd32;left:1000px;top:200px;}
+	75% {background-color:#00fa9a;left:1000px;top:0px;}
+	100% {background-color:#9acd32;left:0px;top:0px;} 
+	}
+	
+#div4{width:225px; height:225px; background-color:#e6e6ef; animation-name:example4; animation-duration:5s; animation-delay:3s; position:relative;animation-timing-function:ease-out;	}
+@keyframes example4 {
+	0%  {background-color:#e6e6ef;left:0px;top:0px;} 
+	25% {background-color:#d8bfd8;left:1000px;top:0px;} 
+	50% {background-color:#dda0dd;left:0px;top:0px;} 
+	75% {background-color:#ee82ee;left:0px;top:200px;} 
+	100% {background-color:#ff00ff;left:0px;top:0px;} 
+	}	
+	
+#div5{width:250px; height:250px; background-color:#e6e6ef; animation-name:example5; animation-duration:5s;position:relative; animation-iteration-count: infinite;animation-timing-function:ease-in-out;	}
+@keyframes example5 {
+	0%  {background-color:#e6e6ef;left:0px;top:0px;} 
+	25% {background-color:#d8bfd8;left:1000px;top:0px;} 
+	50% {background-color:#dda0dd;left:0px;top:0px;} 
+	75% {background-color:#ee82ee;left:1000px;top:0px;} 
+	100% {background-color:#ff00ff;left:0px;top:0px;} 
+	}	
+

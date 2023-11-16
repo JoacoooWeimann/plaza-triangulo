@@ -1,0 +1,44 @@
+*{padding:0px; margin:0px;}
+
+body {height:682px;width:750px; border:4px solid white;	background-image:url(../images/fondoc.jpg); margin:0; background-position:center; background-attachment:fixed; background-repeat:no-repeat;background-size:cover;
+                           
+}
+
+html{ justify-content:center; display:flex;  
+}
+
+header{height:178px;width:750px;
+}
+main{height:505px; width:750px;  background-color:#2C3E50; 
+}
+
+figcaption{text-align:center;}
+
+h1{text-align:center;
+}
+ p {text-align:justify; margin: 4px;}
+
+.logo{float:left;
+}
+
+.ubi { float:middle; text-align:center; 
+}
+.menu{display:inline-block;  text-align:center;background-color:#122F55	;height:80px;width:652px; 
+padding: 40px;			border:9px ridge  #0935AB;top:0px;font-weight: bold; transition: 0.5s;}
+.menu ul{margin:0px;}
+.menu ul li a{text-decoration:none;color:black;padding:30px;display: block;}
+.menu ul li{display:inline-block;text-align:center;}
+.menu ul li a:hover{ height:10px; background-color:rgba(148, 194, 17););	}
+
+
+.costadoder {height:505px; width: 200px; 
+background-color:rgba(148, 194, 17, 0.8); text-align:center;
+float:right;
+ }
+  
+.medio {height:400px; width: 750px; 
+
+}
+.galeria {display: flex; flex-wrap: wrap; flex-direction:row;align-items:center;justify-content:center;} 
+.gimg {padding:0 60px 20px;}  
+
